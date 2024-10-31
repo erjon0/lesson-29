@@ -1,15 +1,20 @@
-var btn1 = document.getElementById("btn1")
-var texts = document.getElementById("texts")
-var h11 = document.getElementById("h11")
-var h12 = document.getElementById("h12")
-var number1 = document.getElementById('number1') 
-var number2 = document.getElementById('number2')
-var btn3 = document.getElementById('btn3')
+var in1=document.getElementById("in1")
+var btn1=document.getElementById("btn1")
+var h11=document.getElementById("h11")
 
-btn1.onclick{
-  texts.innerHTML + Input.value
+button.onclick=function(){
+      text.innerHTMl=input.value;
+}
 
-};
-                    
+var in2=document.getElementById("in2")
+var in3=document.getElementById("in3")
+var btn2=document.querySelector("btn2")
+var text=document.querySelector("answer")
 
+btn2.addEventListener('click',function(){
+  answer.innerHTMl= parseInt(in2.value)+parseInt(in3.value);
+})                                         
 
+var text1="sup";
+var resultati=text1.search(/digital school/);
+document.getElementById("result1").innerHTML=resultati;
