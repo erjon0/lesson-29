@@ -14,3 +14,4 @@ console.log(text1.match(regex2))
 
 var regex3=/(top|best|school)/g;
 console.log(text1.match(regex3))
+
